@@ -26,6 +26,8 @@ AgentVault gives them a simple local memory layer.
 
 ## Install
 
+Requires Node.js 18+.
+
 ```bash
 npm install
 npm run build
@@ -36,6 +38,9 @@ npm run build
 ```bash
 npm run dev
 ```
+
+Default storage is `~/.agentvault.json` (override with `MEMORY_FILE`).
+
 
 ## Claude Desktop example
 
